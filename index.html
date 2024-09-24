@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innomatics Assignment 1 - HTML Table</title>
+    <style>
+        td, th {
+        border: 1px solid #777;
+        padding: 0.5rem;
+        text-align: center;
+        width:50px;                                    
+        }
+        
+        table {
+            border-collapse:collapse;
+            margin: auto;
+        }
+
+        .td-one{
+            background-color: lightgrey;
+        }
+        h3{
+            text-align: center;
+            color: blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>Innomatics Intern Assignment - 1</h3>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="6" bgcolor="yellow">Final Examination Schedule - Fall 2008</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr bgcolor="yellow">
+                <th></th>
+                <th>Monday Dec.15</th>
+                <th>Tuesday Dec.15</th>
+                <th>Wednesday Dec.15</th>
+                <th>Thursday Dec.15</th>
+                <th rowspan="5" style="width:25%" bgcolor="pink">HOME</th>
+            </tr>
+            <tr>
+                <td class="td-one">8:00 a.m.</td>
+                <td>Data Structures</td>
+                <td>Algorithms</td>
+                <td>Computer Networks</td>
+                <td>Database Systems</td>
+            </tr>
+            <tr>
+                <td class="td-one">10:00 a.m.</td>
+                <td>Operating Systems</td>
+                <td>Artificial Intelligence</td>
+                <td>Software Engineering</td>
+                <td>Web Development</td>
+            </tr>
+            <tr>
+                <td class="td-one">1:00 p.m.</td>
+                <td>Machine Learning</td>
+                <td>Cyber Security</td>
+                <td>Mobile Computing</td>
+                <td>Human Computer Interaction</td>
+            </tr>
+            <tr>
+                <td class="td-one">3:00 p.m.</td>
+                <td>Big Data Analytics</td>
+                <td>Cloud Computing</td>
+                <td>Parallel Computing</td>
+                <td>Computer Graphics</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
